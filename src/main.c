@@ -2,5 +2,6 @@
 
 int main()
 {
-    task1();
+    // task1();
+    task2();
 }
