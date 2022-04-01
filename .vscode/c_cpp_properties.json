@@ -9,7 +9,8 @@
             "defines": [
                 "__AVR_ATmega4809__",
                 "__ATmega4809__",
-                "__AVR_DEV_LIB_NAME__=m4809"
+                "__AVR_DEV_LIB_NAME__=m4809",
+                "F_CPU=3333333UL"
             ],
             "compilerArgs": [
                 "-B${workspaceFolder}/device_support/gcc/dev/atmega4809"
