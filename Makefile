@@ -19,7 +19,6 @@ HEADER_FILES = $(foreach sdir,$(SOURCE_DIR)$(HEADERS_DIR),$(wildcard $(sdir)*.h)
 QUITE = @
 .DEFAULT_GOAL = flash
 
-
 # Generate flashable binary
 build: $(BUILD_DIR)$(NAME_EXECUTABLE).hex
 .PHONY: build
@@ -34,7 +33,6 @@ $(BUILD_DIR)%.o : $(SOURCE_DIR)%.c | $(BUILD_DIR)
 # Create build directory
 $(BUILD_DIR):
 	$(QUITE) mkdir -p $(BUILD_DIR)
-
 
 .PHONY: flash
 flash: $(BUILD_DIR)$(NAME_EXECUTABLE).hex
