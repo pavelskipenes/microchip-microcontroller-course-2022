@@ -6,5 +6,6 @@ int main()
     // task2();
     // task3();
     // task4();
-    task5();
+    // task5();
+    task6();
 }
