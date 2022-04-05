@@ -1,12 +1,18 @@
-/*
- * adc.h
- *
- * Created: 27.02.2017 16:51:27
- *  Author: Petter
- */ 
 #pragma once
+
 #include <stdint.h>
+#include <avr/io.h>
 
-void adc_init(void);
+/**
+ * @brief 
+ * 
+ */
+void adc_init();
 
+/**
+ * @brief 
+ * 
+ * @param channel 
+ * @return uint16_t 
+ */
 uint16_t adc_read(uint8_t channel);
